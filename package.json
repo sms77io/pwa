@@ -1,0 +1,69 @@
+{
+    "author": "sms77 e.K. <support@sms77.io>",
+    "contributors": [
+        "André Matthies <andre@gmail.com>"
+    ],
+    "sms77": {
+        "name": "sms77pwa",
+        "sentWith": "PWA"
+    },
+    "name": "@sms77.io/pwa",
+    "version": "1.0.0",
+    "license": "MIT",
+    "private": true,
+    "dependencies": {
+        "@material-ui/core": "^4.11.0",
+        "@material-ui/icons": "^4.9.1",
+        "@material-ui/lab": "^4.0.0-alpha.56",
+        "typeface-roboto": "^0.0.75",
+        "emoji-picker-react": "^3.2.1",
+        "flag-icon-css": "^3.5.0",
+        "i18next": "^19.5.4",
+        "localforage": "^1.7.4",
+        "material-ui-popup-state": "^1.6.1",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1",
+        "react-i18next": "^11.7.0",
+        "react-redux": "^7.2.0",
+        "react-scripts": "3.4.1",
+        "redux": "^4.0.5",
+        "redux-persist": "^6.0.0",
+        "sms77-client": "^1.9.2",
+        "smshelper": "^0.1.0",
+        "typescript": "^3.9.6"
+    },
+    "devDependencies": {
+        "@marshallofsound/webpack-asset-relocator-loader": "^0.5.0",
+        "@types/react-redux": "^7.1.9",
+        "@types/smshelper": "^0.1.0",
+        "@types/jest": "^24.0.0",
+        "@types/node": "^12.0.0",
+        "@types/react": "^16.9.0",
+        "@types/react-dom": "^16.9.0",
+        "node-sass": "^4.14.1",
+        "sass-loader": "^8.0.2",
+        "@testing-library/jest-dom": "^5.11.0",
+        "@testing-library/dom": "^7.20.0",
+        "@testing-library/react": "^10.4.4",
+        "@testing-library/user-event": "^12.0.11",
+        "webpack": "4.42.0"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}
